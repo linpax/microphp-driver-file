@@ -1,0 +1,20 @@
+{
+  "name": "linpax/microphp-driver-file",
+  "description": "MicroPHP driver file",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Zcasper",
+      "email": "testuser@mail.linpax.org"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Micro\\Driver\\File\\": "src/"
+    }
+  },
+  "require": {
+    "linpax/microphp-driver": "dev-master"
+  }
+}
